@@ -22,5 +22,19 @@
             ├css
             ├js
             ├img
+        ├compoent  
+            ├alert
+            ├layui
+            ├uploadify
+3.humans.txt
+介绍开发者和网站的信息[关于humans.txt链接](http://humanstxt.org/ZH)
+
+4.editorconfig
+编辑器格式化时,会先按照该设置
+phpstrom需要下载同名插件,使用规则[点击跳转](http://editorconfig.org/)
+
+5.gitignore
+让git忽略某些不需要的文件上传到git上
+
             
             
