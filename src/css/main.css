@@ -18,8 +18,8 @@ body{
     padding: 0;
 }
 ::selection{
-background: #b3d4fc;
-text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 ul{
     margin:0;
@@ -118,11 +118,168 @@ body{
 
 a{
     color: #666;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:hover,a:active{
-    color: #0ae;
-    text-decoration: underline;
+    color: #ffb300;
 }
 
+header,container,footer{
+    width:100%;
+}
 
+header .top{
+    line-height: 3rem;
+    color:#ffffff;
+    padding:0 1.5rem;
+    background: #555;
+    border-bottom:1px #ecc000 solid;
+}
+
+header .tel{
+    float: left;
+}
+
+header .top ul{
+    text-align: right;
+}
+
+header .top ul li{
+    display: inline-block;
+}
+
+header .top ul li+li{
+    border-left: 1px solid #999;
+    margin-left: -3px;
+}
+header .top ul li a{
+    display: inline-block;
+    padding:0 1.5rem;
+    color: #ffffff;
+}
+header .top ul li a:hover{
+    text-decoration-line: underline;
+}
+/*top end*/
+header .main{
+    padding:0;
+}
+header .main .brand {
+    float: left;
+    padding: 1rem 1.5rem;
+}
+header .main ul{
+    text-align: right;
+}
+header .main ul li{
+    display: inline-block;
+    border-left: 1px solid #f0ede9;
+}
+header .main ul li a{
+    display: inline-block;
+    padding: 0 1.5rem;
+    line-height: 5.5rem;
+    font-size:1.6rem;
+    font-weight: 600;
+}
+header .main ul li a:hover{
+    background-color: #f8f6f1;
+}
+/*header end*/
+.container .transaction{
+    background-color: #7C7365;
+    padding:1rem 6rem;
+}
+.container .transaction .trans-date{
+    display: inline-block;
+}
+.container .trans-date span{
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-height:3rem;
+    margin-left: 1rem;
+}
+.container .trans-date .trans-money{
+    color: rgb(255, 153, 60);
+    font-size:2.2rem;
+    padding:0 1.2rem;
+    background-color: rgb(242, 241, 240);
+    border-radius: 0.3rem;
+    letter-spacing: 0.3rem;
+    margin:0 1rem;
+    box-shadow: 1px 2px 1px #333 inset;
+}
+
+.container .trans-report{
+    display: inline-block;
+    text-align: right;
+}
+
+.container .trans-report a{
+    color: #fff;
+    line-height:3rem;
+}
+/*container*/
+footer{
+    width:100%;
+    padding: 3rem 0 5rem;
+    background: #EBEBEB;
+}
+
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li .icon{
+    display: inline-block;
+    /*把文字缩进到屏幕外,SEO优化*/
+    text-indent: -999rem;
+    margin-right:1.5rem;
+    background: url("https://i.alipayobjects.com/e/201307/jebmKcbrh.png") no-repeat;
+    background-size: 446px 447px;
+    /*overflow: hidden;*/
+}
+
+footer ul li .icon-zfywxkz{
+    width:38px;
+    height: 27px;
+    background-position:-353px -45px ;
+}
+footer ul li .icon-picrk{
+    width:78px;
+    height: 27px;
+    background-position:-105px -96px ;
+}
+footer ul li .icon-visayz{
+    width:36px;
+    height: 27px;
+    background-position:-408px -90px ;
+}
+footer ul li .icon-vsjmfw{
+    width:63px;
+    height: 27px;
+    background-position:-383px -186px ;
+}
+footer ul li .icon-wlgs{
+    width:22px;
+    height: 27px;
+    background-position:-44px -48px ;
+}
+footer ul li .icon-rzcx{
+    width:75px;
+    height: 27px;
+    background-position:4px -320px ;
+}
+footer ul li .icon-gs{
+    width:36px;
+    height: 27px;
+    background-position:-408px -90px ;
+}
+footer p{
+    margin-top:1.5rem;
+    text-align: center;
+    color:#666666;
+}

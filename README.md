@@ -76,5 +76,18 @@ phpstrom需要下载同名插件,使用规则[点击跳转](http://editorconfig.
 >`font-size`设置为62.5%,有利于使用em,他会寻找父元素或祖父元素,都为发现则使用默认`16px=1em`
 
 >rem 参考html的根元素,参考系固定,若html根元素没有设置`font-szie`
-,则默认`16px=1rem`  rem不支持**IE8**
+,则默认`16px=1rem  `  rem不支持**IE8**
 
+12.li+li
+    
+    header .top ul li+li{
+        border-left: 1px solid #999;
+        margin-left: -3px;
+    }
+    
++表示紧接在li后的所有li,加左边线
+margin-left:`<li>`之间的便签会有回车,产生空白符号
+
+13.浮动效果使用
+
+能用`display:inline-bloack` 就不用float,浮动清理困难
