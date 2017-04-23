@@ -48,4 +48,6 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/workspace.xml
+.idea/dictionaries/cc.xml
+.idea/misc.xml
 

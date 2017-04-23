@@ -1,0 +1,128 @@
+/************
+ * 页面样式
+ ************/
+
+
+
+/*===========
+   基础样式
+ ===========*/
+
+html{
+    font-size:62.5%;
+    color: #222;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+background: #b3d4fc;
+text-shadow: none;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+
+/*  ===========
+    工具样式
+    ===========*/
+
+/*在父元素中居中*/
+.center-block{
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+/*快对齐*/
+.pull-right{
+    float: right !important;
+}
+
+.pull-left{
+    float: left !important;
+}
+
+/*文本对齐*/
+.text-right{
+    text-align: right !important;
+}
+.text-left{
+    text-align: left !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.hide{
+    display: none !important;
+}
+
+/*隐藏元素,挤占元素空间*/
+.show{
+    display: block !important;
+}
+
+/*隐藏元素,不会挤占元素空间*/
+.invisible{
+    visibility: hidden;
+}
+
+/*隐藏文本,SEO*/
+.text-hide{
+    font:0/0 a;
+    color: transparent;
+    text-shadow:none;
+    background: transparent;
+    border:0;
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after{
+    content:" ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+
+/*===========
+   浏览器更新提示
+ ===========*/
+
+.browserupgrade{
+    background-color:#ccc;
+    margin:0;
+    padding: 1rem;
+
+}
+
+/*  ===========
+    自定页面样式
+    ===========*/
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+
+a{
+    color: #666;
+    text-decoration: underline;
+}
+a:hover,a:active{
+    color: #0ae;
+    text-decoration: underline;
+}
+
+

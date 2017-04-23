@@ -36,5 +36,45 @@ phpstrom需要下载同名插件,使用规则[点击跳转](http://editorconfig.
 5.gitignore
 让git忽略某些不需要的文件上传到git上
 
-            
-            
+6.强制使用最新的ie进行渲染
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+7.提醒浏览器更新   
+      
+    <!--[if lte IE8]>
+    <p class="browserupgrade">您的浏览器版本过低,请使用最新版,以获取最佳的体验 <a href="https://browsehappy.com/?locale=zh">升级浏览器</a></p>
+    <![endif]-->
+
+8.HTML5标签
+
+    <header>  
+    <nav>       导航
+    <footer> 
+    <article>   文章等独立于页面的内容
+    <section>   形成相同内容的区块,<article>为特殊的setcion
+    <em>        表示强调
+    
+9.网页大纲
+
+通过phpstrom 的Structrue 功能来看网页大纲,把section没有标题的变为div
+
+10.normalize.css
+
+相比于传统的css.reset,改css有诸多优势,详情查看连接[链接](http://necolas.github.io/normalize.css/)
+来取消不同浏览器之间的差异
+   
+11.在main.css中设置基础样式
+
+    
+    html{
+        font-szie:62.5%
+        color:#222
+    }
+
+
+>`font-size`设置为62.5%,有利于使用em,他会寻找父元素或祖父元素,都为发现则使用默认`16px=1em`
+
+>rem 参考html的根元素,参考系固定,若html根元素没有设置`font-szie`
+,则默认`16px=1rem`  rem不支持**IE8**
+
