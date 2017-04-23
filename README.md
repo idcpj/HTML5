@@ -91,3 +91,11 @@ margin-left:`<li>`之间的便签会有回车,产生空白符号
 13.浮动效果使用
 
 能用`display:inline-bloack` 就不用float,浮动清理困难
+
+14.box-sizing
+
+当`width:100%`,在添加padding或margin,会撑破div,使用`box-sizing: border-box;`,可以解决
+
+15.line-height
+
+如果div中只有文字,子使用`line-height`来撑开高度,而不是`padding`
